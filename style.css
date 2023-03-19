@@ -1,0 +1,113 @@
+body {
+  margin: 0 auto;
+  width: 40%;
+  background-color: black;
+  color: white;
+}
+
+header {
+  z-index: 999;
+  position: fixed;
+  width: 40%;
+  top: 0;
+  height: 50px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+article {
+  padding: 0 20px;
+}
+
+.user-wrap {
+  position: relative;
+}
+
+.user-images1 {
+  margin: 0 auto;
+  /* width: 40%; */
+  height: 80vh;
+  vertical-align: middle;
+
+  background: linear-gradient(
+      rgba(20, 20, 20, 0) 10%,
+      rgba(20, 20, 20, 0.25) 25%,
+      rgba(20, 20, 20, 0.5) 50%,
+      rgba(20, 20, 20, 0.75) 75%,
+      rgba(20, 20, 20, 1) 100%
+    ),
+    url("../images/9.jpg");
+  background-size: cover;
+}
+
+/* .user-images1 img {
+    width: 100%;
+    vertical-align: middle;
+
+} */
+
+.user-text1 {
+  position: absolute;
+  top: 80%;
+  transform: translate(130%, -10%);
+}
+
+.user-text1 p {
+  color: white;
+  text-align: center;
+}
+
+.user-text1 b {
+  font-size: 25px;
+}
+
+.user-images2 img {
+  width: 40%;
+}
+
+.user-images3 img {
+  width: 100%;
+}
+
+.article2 {
+  text-align: center;
+}
+
+.article3 {
+  text-align: right;
+}
+
+.article4 {
+  text-align: center;
+  margin-top: 20px;
+}
+.article4-wrap {
+  position: relative;
+}
+
+.article4-text {
+  position: absolute;
+  top: 130%;
+  transform: translate(180%, -800%);
+}
+footer {
+  background-color: rgb(69, 67, 67);
+  color: white;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer button {
+  background: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 10px;
+}

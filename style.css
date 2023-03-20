@@ -5,10 +5,21 @@ body {
   color: white;
 }
 
+.all{
+  width: 750px;
+
+  overflow: scroll;
+  background: black;
+  border: 1px solid #000;
+   /* 가로 스크롤 */
+  overflow: auto;
+  white-space: nowrap;
+}
+
 header {
   z-index: 999;
   position: fixed;
-  width: 40%;
+  width: 39.4%;
   top: 0;
   height: 50px;
   color: white;
@@ -49,11 +60,20 @@ article {
     vertical-align: middle;
 
 } */
+.user-menu1 {
+  font-size: 25px;
+  margin: 5%;
+}
+
+.user-menu2 {
+  
+  margin: 5%;
+}
 
 .user-text1 {
-  position: absolute;
-  top: 80%;
-  transform: translate(130%, -10%);
+  position: relative;
+  top: 10%;
+  transform: translate(0%, -150%);
 }
 
 .user-text1 p {
@@ -70,32 +90,41 @@ article {
 }
 
 .user-images3 img {
-  width: 100%;
+  width: 105%;
 }
 
-.article2 {
+
+.article2 {   /* 두번째 사진 */
   text-align: center;
 }
 
-.article3 {
+.article3 {  /* 세번째 사진 */
   text-align: right;
 }
 
 .article4 {
+  position: relative;
   text-align: center;
   margin-top: 20px;
 }
-.article4-wrap {
+
+.article4-text {
+  position: relative;
+  transform: translate(3%, -350%);
+  font-size: 2em;
+}
+
+.article4-text2 {
+  position: relative;
+  transform: translate(0%, -120%);
+}
+
+.user-wrap4 {
   position: relative;
 }
 
-.article4-text {
-  position: absolute;
-  top: 130%;
-  transform: translate(180%, -800%);
-}
 footer {
-  background-color: rgb(69, 67, 67);
+  background-color: #3a3a3a;
   color: white;
   height: 150px;
   display: flex;
@@ -108,6 +137,11 @@ footer button {
   background: none;
   color: white;
   border: 1px solid white;
-  border-radius: 4px;
-  padding: 10px;
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.middle-image { 
+max-width: 100%;
+font-size: 1em;
 }
